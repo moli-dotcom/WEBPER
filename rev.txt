@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AYTA, AARON - Personal Website</title>
+
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" ,shrink-to-fit="no"/>
+
+    <link rel="stylesheet" href="css/Bootstrap.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript">
+      $(window).ready(function () {});
+    </script>
+  </head>
+
+  <body>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Projects</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <div class="page1">
+      <div class="container-box">
+
+        <div class="container">
+
+        <div class="a">
+          <h6 class="wb">WEB DEVELOPER | GRPAHIC DESIGNER | WRITER</h6>
+
+          <h1>AARON LANDER AYTA</h1>
+          <hr/>
+
+          <p class="p">
+            " As an aspiring creative professional, I'm driven by a desire to
+            express myself through various mediums. My goal is to create visually
+            stunning and engaging experiences that resonate with audiences. I'm a
+            fast learner, highly adaptable, and possess a strong work ethic. I
+            thrive in dynamic environments and am always eager to embrace new
+            challenges and expand my knowledge."
+          </p>
+        </div>
+        </div>
+
+        <img class="blob" src="human.png" alt="3D AVATAR" />
+      </div>
+    </div>
+
+
+
+    <div class="page2">
+
+      <div class="box-1"></div>
+
+
+    </div>
+
+    <div class="page3">
+
+      
+      <div class="box-2">
+        <h1 class="ab">About Me</h1>
+        <p class="ab1">Welcome to my personal space on the web! I'm Aaron Lander Ayta, an aspiring creative professional with a 
+          passion for graphic design and visual storytelling. I love bringing ideas to life through bold colors, striking compositions, 
+          and innovative designs. Constantly exploring new styles and techniques, I strive to create work that is both visually 
+          compelling and meaningful. Beyond design I'm also learning Video Editing and Digital Marketing and enjoy expressing 
+          creativity in various forms. Wether it's through art, music, or creative projects, I'm always looking for new ways to grow 
+          and improve. Feel free to connect, I'd love to share ideas and collaborate!</p>
+
+    </div>
+ 
+
+    <div class="box-3">
+      <h1 class="pr">My Projects</h1>
+      <p class="pr1">Creativity is at the heart of everything i do, and my projects reflect my passion for visual storytelling. I specialize in graphic designing,
+        crafting unique and memorable brand identities that leave a lasting impression. My paintings and artwork showcase my love
+        for color, textures, and artistic expression, bringing ideas to life on adobe photoshop and digital mediums. Additionally, I design
+        custom cards, from elegant invitations to personalized greeting cards, blending aesthetics with meaningful design. Each project is a 
+        journey of creativity and innovation, and I'm always excited to take on new challenges that push my artistic boundaries. 
+        </p>
+    </div>
+
+
+  <div id="demo" class="carousel slide" data-ride="carousel">
+  
+    <div class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="@" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li> 
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li> 
+    <li data-target="#demo" data-slide-to="4"></li>
+    <li data-target="#demo" data-slide-to="5"></li> 
+    <li data-target="#demo" data-slide-to="6"></li>
+    <li data-target="#demo" data-slide-to="7"></li>
+
+
+    </div>
+    
+    <div class="carousel-inner">
+    <div class="carousel-item active" >
+      <img src="kupal.png" alt="New York" >
+      </div>
+      
+    <div class="carousel-item" >
+      <img src="ngani.png" alt="New York" >
+      </div>
+      
+    <div class="carousel-item" >
+      <img src="ARCHI.png" alt="New York" >
+      </div>
+      
+    <div class="carousel-item" >
+      <img src="NED.png" alt="New York" >
+      </div>
+      
+    <div class="carousel-item" >
+      <img src="PHARMA.png" alt="New York" >
+      </div>
+      
+    <div class="carousel-item" >
+      <img src="CEA AIT.png" alt="New York" >
+      </div>
+
+      <div class="carousel-item" >
+        <img src="EDUC.png" alt="New York" >
+        </div>
+
+
+
+    
+    
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    </a>
+    </div>
+  </div>
+</div>
+
+
+
+  <div class="page4">
+  <div class="container ">
+    <h1 class="PO">Project Overview</h1>
+
+
+
+    <div class="row">
+      <div class="col-md-4 mb-4 border">
+        <img src="JOUR.png"class="img-fluid"alt="windows"/>
+        <div class="text-center">
+        <h3>Design</h3>
+        <button class="btn btn-outline-dark">See Photo</button>
+      </div>
+      </div>
+
+      <div class="col-md-4 mb-4 border">
+        <img src="LAW.png"class="img-fluid"alt="windows"/>
+        <div class="text-center">
+        <h3>Development</h3>
+        <button class="btn btn-outline-dark">See Photo</button>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4 border">
+        <img src="GD.png"class="img-fluid"alt="windows"/>
+        <div class="text-center">
+        <h3>Analytics</h3>
+        <button class="btn btn-outline-dark">See Photo</button>
+        </div>
+      </div>
+
+
+
+      
+      
+      <div class="col-md-4 mb-4 border">
+        <img src="ENG.png"class="img-fluid"alt="windows"/>
+        <div class="text-center">
+        <h3>Development</h3>
+        <button class="btn btn-outline-dark">See Photo</button>
+        </div>
+      </div>
+      
+      <div class="col-md-4 mb-4 border">
+        <img src="NE.png"class="img-fluid"alt="windows"/>
+        <div class="text-center">
+        <h3>Development</h3>
+        <button class="btn btn-outline-dark">See Photo</button>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 border">
+        <img src="PROG.png"class="img-fluid"alt="windows"/>
+        <div class="text-center">
+        <h3>Development</h3>
+        <button class="btn btn-outline-dark">See Photo</button>
+        </div>
+      </div>
+
+
+
+
+      <div class="col-md-4 mb-4 border">
+        <img src="WEB.png"class="img-fluid"alt="windows"/>
+        <div class="text-center">
+        <h3>Development</h3>
+        <button class="btn btn-outline-dark">See Photo</button>
+        </div>
+      </div>
+
+      
+      <div class="col-md-4 mb-4 border">
+        <img src="RN.png"class="img-fluid"alt="windows"/>
+        <div class="text-center">
+        <h3>Development</h3>
+        <button class="btn btn-outline-dark">See Photo</button>
+        </div>
+      </div>
+
+      
+      <div class="col-md-4 mb-4 border">
+        <img src="MED.png"class="img-fluid"alt="windows"/>
+        <div class="text-center">
+        <h3>Development</h3>
+        <button class="btn btn-outline-dark">See Photo</button>
+        </div>
+      </div>
+
+
+      
+      <div class="col-md-4 mb-4 border">
+        <img src="AC.png"class="img-fluid"alt="windows"/>
+        <div class="text-center">
+        <h3>Design</h3>
+        <button class="btn btn-outline-dark">See Photo</button>
+      </div>
+      </div>
+
+      <div class="col-md-4 mb-4 border">
+        <img src="CPA.png"class="img-fluid"alt="windows"/>
+        <div class="text-center">
+        <h3>Development</h3>
+        <button class="btn btn-outline-dark">See Photo</button>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4 border">
+        <img src="ARCH.png"class="img-fluid"alt="windows"/>
+        <div class="text-center">
+        <h3>Analytics</h3>
+        <button class="btn btn-outline-dark">See Photo</button>
+        </div>
+      </div>
+
+
+
+      
+        <div class="col-md-4 mb-4 border">
+          <img src="TEACH.png"class="img-fluid"alt="windows"/>
+          <div class="text-center">
+          <h3>Design</h3>
+          <button class="btn btn-outline-dark">See Photo</button>
+        </div>
+        </div>
+  
+        <div class="col-md-4 mb-4 border">
+          <img src="FT.png"class="img-fluid"alt="windows"/>
+          <div class="text-center">
+          <h3>Development</h3>
+          <button class="btn btn-outline-dark">See Photo</button>
+          </div>
+        </div>
+  
+        <div class="col-md-4 mb-4 border">
+          <img src="PROJECT EDGE.png"class="img-fluid"alt="windows"/>
+          <div class="text-center">
+          <h3>Analytics</h3>
+          <button class="btn btn-outline-dark">See Photo</button>
+          </div>
+        </div>
+  
+    
+          <div class="col-md-4 mb-4 border">
+            <img src="HTM.png"class="img-fluid"alt="windows"/>
+            <div class="text-center">
+            <h3>Design</h3>
+            <button class="btn btn-outline-dark">See Photo</button>
+          </div>
+          </div>
+    
+          <div class="col-md-4 mb-4 border">
+            <img src="FA.png"class="img-fluid"alt="windows"/>
+            <div class="text-center">
+            <h3>Development</h3>
+            <button class="btn btn-outline-dark">See Photo</button>
+            </div>
+          </div>
+    
+          <div class="col-md-4 mb-4 border">
+            <img src="PROJECT EDGE.png"class="img-fluid"alt="windows"/>
+            <div class="text-center">
+            <h3>Analytics</h3>
+            <button class="btn btn-outline-dark">See Photo</button>
+            </div>
+          </div>
+    
+    
+
+      
+
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+<div class="page5">
+  <div class="container">
+    <div class="contact-container">
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <h4>Send us a message</h4>
+            <form>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Subject" required>
+                <textarea placeholder="Message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <!-- Contact Details -->
+        <div class="contact-details">
+            <h4>Contact us</h4>
+            <p>We're open for any suggestion or just to have a chat!</p>
+            <p><i class="bi bi-geo-alt"></i><strong> Address:</strong> 198 West 21th Street, Suite 721, New York NY 10016</p>
+            <p><i class="bi bi-telephone"></i><strong> Phone:</strong> +123 2355 98</p>
+            <p><i class="bi bi-envelope"></i><strong> Email:</strong> info@yoursite.com</p>
+            <p><i class="bi bi-globe"></i><strong> Website:</strong> yoursite.com</p>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+  
+
+  </body>
+
+  
+  <footer>
+    <div class = "bg">
+      <div class="text-center">
+        <p>© Ayta, Aaron Lander</p>
+      </div>
+    </div>
+  </footer>
+
+</html>

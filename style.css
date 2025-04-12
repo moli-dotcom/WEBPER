@@ -1,0 +1,419 @@
+
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  background-color: white;
+  gap: 70px;
+  justify-content: center;
+  z-index: 1000; /* Ensures it stays on top */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/*
+nav {
+  position: sticky;
+  top: 1px;
+  padding: 5px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 0px 0px 20px 20px;
+}
+*/
+nav a {
+  font-weight: bold !important; /* Make text bold */
+  font-size: 18px !important; /* Increase font size */
+  cursor: pointer;
+  color: #373d20;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border-radius: 5px;
+}
+
+nav a.btn-outline-dark {
+  border: none !important;
+}
+
+nav a.btn-outline-dark:hover {
+  border-radius: 50px !important; /* Make button rounded on hover */
+  transition: border-radius 0.3s ease-in-out; /* Smooth transition */
+}
+
+nav a:hover {
+  background-color: #dddddd00;
+}
+
+.page1 {
+  margin-bottom: 50px;
+  background-color: #edede6;
+}
+.wb{
+  margin-bottom: 25%;
+  font: bold;
+}
+.a{
+  margin-top: -20%;
+  padding: 10%;
+
+}
+.p{
+  font-size: 18px;
+  font-style: oblique;
+  text-align: justify;
+  color: black;
+}
+hr{
+  border-top: 0px solid #110c0c; /* Light gray line */
+}
+
+@keyframes morph {
+  0%,
+  100% {
+    border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+  }
+  33% {
+    border-radius: 72% 28% 48% 48% / 28% 28% 72% 72%;
+  }
+  66% {
+    border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
+  }
+}
+
+.container-box {
+  background-color: white;
+  padding: 20px 100px 20px 20px; /* Adds some spacing around the blob */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 80rem; /* Slightly larger than the blob */
+  height: 40rem;
+  border-radius: 50px; /* Smooth rounded corners */
+  margin: 40px auto; /* Centers the box */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.475); /* Adds subtle shadow */
+}
+
+.blob {
+  overflow: hidden;
+  width: 49rem;
+  height: 30rem;
+  border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+  background: #92936b no-repeat center;
+  background-size: cover;
+  animation: morph 3.75s linear infinite;
+}
+
+.page2 {
+  background-color: #bcbd8b;
+}
+
+.page3 {
+  background-color: #edede6;
+}
+
+.box-2 {
+  background-color: #bcbd8b;
+  width: auto;
+  margin-top: 80px;
+  padding: 250px 250px 80px 250px;
+  float: center;
+}
+
+@font-face { font-family: brilian signature; src: url('brilian\ signature.otf'); } 
+
+.ab{
+  font-family: 'brilian signature';
+  font-size: 7rem;
+  margin-top: -20%;
+}
+.ab1{
+  text-align: justify;
+  font-size: 18px;
+  font-style: oblique;
+  color: #373d20;
+  margin-left: -15%;
+  margin-right: 55%;
+}
+
+.box-1 {
+  background: url('PIC.jpeg')center center/cover no-repeat;
+  width: 500px;
+  padding: 100px 300px 300px 300px;
+  margin: 0px 115px 0px 0px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.475); /* Adds subtle shadow */
+  float: right;
+}
+
+
+body {
+  background-color: #edede6; /* Light gray background */
+  padding-top: 30px; /* Prevents navbar from covering content */
+
+}
+
+
+.container-carousel{
+  margin: 0px;
+
+}
+
+
+@font-face { font-family: brilian signature; src: url('Signature.otf'); } 
+.text {
+  font-family: 'brilian signature';
+  font-size: 7rem;
+
+}
+
+#demo {
+  width: 650px; /* Set desired width */
+  height: 350px; /* Set desired height */
+  margin: -565px 50px 250px 120px; /* Center the carousel */
+  float: left;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Center prev & next buttons */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 10%;
+  top: 52%;
+  transform: translateY(-50%);
+}
+
+/* Indicators inside the image */
+.carousel-indicators {
+  position: absolute;
+  top: 133%;
+  left: 37%;
+  transform: translateX(-50%);
+}
+
+.bg{
+  padding: 10% ;
+  background-color: rgb(49, 48, 48);
+}
+
+
+@font-face { font-family: brilian signature; src: url('Signature.otf'); } 
+.pr{
+  text-align: center;
+  font-family: 'brilian signature';
+  font-size: 7rem;
+  margin-left: 65%;
+  margin-top: 3%;
+  margin-right: 13%;
+}
+
+.pr1{
+  text-align: justify;
+  font-size: 18px;
+  font-style: oblique;
+  color: #373d20;
+  margin-left: 57%;
+  margin-right: 7%;
+  margin-bottom: 100px;
+
+}
+
+
+
+p{
+  color: #ffffff;
+}
+
+
+/*DESIGN PICS8*/
+/* General container styles */
+.container {
+  padding: 0px;
+  margin-top: 50px;
+}
+
+/* Title Styling */
+@font-face { font-family: brilian signature; src: url('Signature.otf'); } 
+.PO{
+  text-align: center;
+  padding: 50px 50px 0px 50px;
+  font-family: 'brilian signature';
+  font-size: 7rem;
+  color: #333;
+}
+
+/* Row layout */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;
+}
+
+/* Card Styles for each column */
+.col-md-4 {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+/* Border and padding for each image block */
+.col-md-4.border {
+  border: 1px solid #ddd;
+  padding: 20px 20px 10px 20px;
+  border-radius: 8px;
+  background-color: #edede6;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.col-md-4.border:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Styling */
+.col-md-4 img.img-fluid {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Button Styling */
+.col-md-4 .btn {
+  margin-top: 15px;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.col-md-4 .btn-outline-dark {
+  border: 1px solid #333;
+  color: #333;
+  background-color: transparent;
+}
+
+.col-md-4 .btn-outline-dark:hover {
+  background-color: #333;
+  color: white;
+}
+.text-center {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Pushes content lower */
+  min-height: 50px;  /* Adjust height as needed */
+  
+  padding-top: 10px; /* Adds spacing from the top */
+}
+
+/* Ensures all the buttons stay centered 
+.text-center {
+  text-align: center;
+}
+
+/* Responsive Design for Mobile/Tablet */
+@media (max-width: 768px) {
+  .col-md-4 {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 576px) {
+  .col-md-4 {
+    width: 100%;
+  }
+}
+
+
+
+
+.contact-container {
+  height: 500px;
+  max-width: 1000px;
+  margin: 50px auto 50px auto;
+  display: flex;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+  flex: 1;
+  background: #3b3b22;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+	  padding: 10px 10px 70px 10px;
+
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ffffff;
+  border: none;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-details {
+  flex: 1;
+  
+  padding: 20px;
+}
+
+.contact-details h4 {
+  margin-bottom: 15px;
+}
+
+.contact-details p {
+  font-size: 18px;
+  color:#373d20;
+  margin: 5px 0;
+}
+
+.contact-details i {
+  color: #6a11cb;
+  margin-right: 10px;
+}
+
+.page5{
+border:100px;
+background-color: #3b3b22;
+}
+
+
+.box-4{
+	height: 50px;
+}
+
+
+.box-5{
+	height: 50px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
